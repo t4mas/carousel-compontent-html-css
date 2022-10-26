@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 
@@ -13,20 +14,59 @@
 
 
     <!-- style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="styles.css">
 
 
     <!-- font -->
-    <script src="https://kit.fontawesome.com/54e3bb2da3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
 
 
 </head>
+
 <body>
 
-    <div class="carousel-wrapper">
+
+
+    <div class="carousel">
+
+
+        <img src="Assets/carousel-image.png" alt="John">
+
+        <blockquote class="testimonial">
+            <p class="testimonial-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex provident ipsam
+                eligendi consequatur quibusdam perferendis est numquam...</p>
+            <p class="testimonial-author"> John Doe </p>
+            <p class="testimonial-job">Senior Product manager</p>
+        </blockquote>
+
+        <button class="button button--left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="w-6 h-6 button-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+
+        <button class="button button--right"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="w-6 h-6 button-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+
+        <div class="dots">
+            <button class="dot dot-active">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+            <button class="dot">&nbsp;</button>
+        </div>
+
 
     </div>
-    
+
+
+
 </body>
+
 </html>
