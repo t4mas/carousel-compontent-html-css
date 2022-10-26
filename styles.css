@@ -1,0 +1,38 @@
+
+/**************************************************************************** GENERAL *****************************************************************************/
+/******************************************************************************************************************************************************************/
+
+/*
+Info: Some general infomation about this developement project.
+I am using Bootstrap 5 and Bootstrap 5 breakpoints in this project.
+This website is developed width "desktop-first" method.
+*/ 
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* 1rem = 10px */
+    /* Percentage of user's browser font-size setting. */
+    font-size: 62.5%;
+}
+
+
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////// HEADER /////*/
